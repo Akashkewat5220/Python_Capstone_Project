@@ -1,0 +1,2 @@
+# Normalize source/document line endings across student and instructor machines.
+* text=auto eol=lf

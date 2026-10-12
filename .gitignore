@@ -1,0 +1,26 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated datasets and charts; recreate using the documented pipeline
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+exported_countries.csv
+population_vs_area.png
+verification-output/
+*.log
+
+# Editor, OS, and private settings
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
